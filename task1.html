@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            margin: 0 auto;
+        }
+        .head{
+            background-color: rgb(179, 174, 174);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            
+            height: 10vh;
+        }
+        .main{
+            justify-content: space-between;
+            display: flex;
+        }
+        .left{display:inline-block;
+            width: 60vw;
+            height: 50vh;
+            background-color: rgb(235, 204, 164);
+
+        }
+        .right{
+            justify-content:center;
+            align-items:flex-start;
+            display: flex;
+            width: 40%;
+            height: 50vh;
+            background-color: rgb(166, 211, 196);
+        }
+        
+        .foot{
+            background-color: rgb(179, 174, 174);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height: 10vh;
+            justify-content: space-around;
+        }
+        .mainpart{
+            display: inline-flex;
+            width: 60vw;
+            height: 20vh;
+            justify-content:center;
+            align-items:center;
+            flex-wrap: wrap;
+            justify-content: baseline;
+        }
+        .blockpart{
+            width: 20vw;
+            height: 70%;
+        }
+        .part1{
+            display:inline-flex;
+        }
+        .block1{
+            margin: 1vh;
+            background-color:rgb(221, 143, 115);
+            display: inline-flex;
+            justify-content:baseline;
+            align-items:center;
+            justify-content: space-around;
+            width: 28vw;
+            height: 10vh;
+            margin: 1vw;
+        }
+        .part2{
+            justify-content:space-around;
+            align-items:center;
+
+        }
+        .block2{
+            background-color:rgb(221, 143, 115);
+ 
+            display: inline-flex;
+            width: 58vw;
+            height: 10vh;
+            justify-content:center;
+            align-items:center;
+            flex-wrap: wrap;
+            margin: 1vw;
+            justify-content: baseline;
+        }
+        .footblock{
+            justify-content:center;
+            align-items:center;
+            display: inline-flex;
+            justify-content: baseline;
+            width: 20vw;
+            height: 70%;
+            background-color: white;
+            align-items:center;
+        }
+        p{
+            font-size:large;
+            font-weight: bolder;
+             align-items:center;
+             justify-content: center;
+             
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head"><p>[Шапка страницы]</p></div>
+
+        <div class="main">
+            <div class="left">
+                <div class="mainpart">
+                    <p>[Основная часть]</p>
+                </div>
+                <div class="blockpart">
+                    <div class="part1">
+                        <div class="block1"><p>[Еще1]</p></div>
+                        <div class="block1"><p>[Еще2]</p></div>
+                    </div>
+                <div class="part2">
+                    <div class="block2"><p>[Еще3]</p></div>
+                </div>
+                   
+                </div>
+                </div>
+           <div class="right"><p>[Боковая область]</p></div>
+        </div>
+        <div class="foot">
+            <div class="footblock"><p>[Секция футера 1]</p></div>
+            <div class="footblock"><p>[Секция футера 2]</p></div>
+            <div class="footblock"><p>[Секция футера 3]</p></div>
+            <div class="footblock"><p>[Секция футера 4]</p></div>
+        </div>
+    </div>
+</body>
